@@ -3,9 +3,10 @@
 .navbar {
     padding:20px;
     margin-bottom:40px;
+    background-color: #262626 !important;
 
     .bwm-search {
-        height:50px;
+        height:38px;
         width:300px;
     }
 
@@ -19,6 +20,10 @@
 
     .nav-item {
         font-size:14px;
+    }
+
+    .nav-link {
+        color: $primary;
     }
 
     .btn-bwm-search {
